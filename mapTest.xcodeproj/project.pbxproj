@@ -12,6 +12,8 @@
 		D4074B191D8C481000BD7237 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4074B171D8C481000BD7237 /* Main.storyboard */; };
 		D4074B1B1D8C481000BD7237 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4074B1A1D8C481000BD7237 /* Assets.xcassets */; };
 		D4074B1E1D8C481000BD7237 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4074B1C1D8C481000BD7237 /* LaunchScreen.storyboard */; };
+		D4074B281D8C488000BD7237 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4074B261D8C488000BD7237 /* CoreLocation.framework */; };
+		D4074B291D8C488000BD7237 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4074B271D8C488000BD7237 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		D4074B1A1D8C481000BD7237 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4074B1D1D8C481000BD7237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4074B1F1D8C481000BD7237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4074B261D8C488000BD7237 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D4074B271D8C488000BD7237 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4074B281D8C488000BD7237 /* CoreLocation.framework in Frameworks */,
+				D4074B291D8C488000BD7237 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +46,7 @@
 			children = (
 				D4074B121D8C480F00BD7237 /* mapTest */,
 				D4074B111D8C480F00BD7237 /* Products */,
+				D4074B251D8C488000BD7237 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +69,15 @@
 				D4074B1F1D8C481000BD7237 /* Info.plist */,
 			);
 			path = mapTest;
+			sourceTree = "<group>";
+		};
+		D4074B251D8C488000BD7237 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4074B261D8C488000BD7237 /* CoreLocation.framework */,
+				D4074B271D8C488000BD7237 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
